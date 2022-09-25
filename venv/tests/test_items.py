@@ -9,4 +9,4 @@ def test_find_add_to_cart_btn(browser):
     time.sleep(1)
     submit_btn = browser.find_element(By.XPATH, "//*[@id='add_to_basket_form']/button")
     submit_btn.click()
-    #стоит добавить более чёткий путь до элемента
+    #стоит добавить более чёткий путь до элемент
